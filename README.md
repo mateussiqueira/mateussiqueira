@@ -108,35 +108,18 @@ Plataforma de deploy que roda em sua máquina. Conecte GitHub, faça push, e o s
 ---
 
 ### 🤖 **Canopy** — Fork otimizado do OpenCode
-Versão melhorada do agente de IA para coding com foco em:
+Versão melhorada do agente de IA para coding com foco em otimizações críticas:
 
 **Melhorias:**
 - 🧠 Overflow recovery — sessões longas não perdem contexto
 - 💾 Menor footprint de memória (RSS otimizado)
 - 🔒 Proteção contra deleção acidental
 - 🤔 Extended thinking com Bedrock Converse
+- ⚡ Performance otimizada em todas as camadas
 
 **Stack:** TypeScript, Bun, Bedrock Converse, CLI/TUI
 
 **Repo:** https://github.com/mateussiqueira/canopy
-
----
-
-### 🎛️ **Omni CLI** — Hub unificado de ferramentas
-CLI que orquestra múltiplas ferramentas de desenvolvimento:
-
-**Gerenciamento:**
-- 🧠 Memória macOS (Thunderbolt 4 SSD)
-- 🔌 MCP Servers
-- 🌐 Hostinger (DNS, VPS)
-- ☁️ Cloudflare, AWS, Vercel
-- 🐙 GitHub automation
-- 🚦 Unleash feature flags
-- 🎭 Profiles (dev/staging/prod)
-
-**Stack:** Python 3.10+, Click, TOML, APIs integradas
-
-**Repo:** https://github.com/mateussiqueira/omni-cli
 
 ---
 
@@ -150,6 +133,13 @@ Script shell single que faz bypass completo de MDM em Apple Silicon e Intel.
 4. Limpeza de artefatos por usuário
 5. pf Firewall (kernel-level)
 
+**Características:**
+- ✅ Reversível com backup/restore
+- ✅ Idempotente (executar múltiplas vezes é seguro)
+- ✅ Auto-heal persistente
+- ✅ Suporte a Apple Silicon e Intel
+- ✅ Migração de dados preservada
+
 **Stack:** Shell Script, macOS recovery, pf firewall
 
 **Repo:** https://github.com/mateussiqueira/unleash
@@ -157,13 +147,20 @@ Script shell single que faz bypass completo de MDM em Apple Silicon e Intel.
 ---
 
 ### 🧠 **MLX Server** — MCP Server para LLMs locais
-Expõe modelos MLX como ferramentas MCP para opencode.
+Expõe modelos MLX como ferramentas MCP para opencode e agentes de IA.
 
-**Suporta:**
+**Modelos Suportados:**
 - Mistral 7B, LLaMA 3.1 8B
-- Qwen 2.5 Coder 14B
-- DeepSeek R1 7B
-- Gemma 2 9B, e mais
+- Qwen 2.5 Coder 14B (code reviews especializados)
+- DeepSeek R1 7B, DeepSeek Coder V2
+- Gemma 2 9B, Llama 3.2 3B
+- Qwen 2.5 VL 7B (visão e linguagem)
+
+**Funcionalidades:**
+- 💬 Chat com qualquer modelo
+- 🔍 Code review otimizado
+- 📋 Gerenciamento de modelos
+- 🔌 Integração MCP Protocol
 
 **Stack:** Python, MLX, MCP Protocol
 
@@ -174,22 +171,22 @@ Expõe modelos MLX como ferramentas MCP para opencode.
 ## 🎓 Especialidades
 
 ### Segurança Bancária
-- ✅ PCI-DSS compliance
-- ✅ Criptografia simétrica e assimétrica
+- ✅ PCI-DSS compliance e auditoria
+- ✅ Criptografia simétrica (AES-256) e assimétrica (RSA, ECDSA)
 - ✅ OAuth 2.0 / OpenID Connect
-- ✅ KYC/AML systems
-- ✅ Rate limiting e DDoS protection
-- ✅ Validação de integridade de dados
-- ✅ Auditoria e logging seguro
+- ✅ KYC/AML systems e verificação de identidade
+- ✅ Rate limiting avançado e DDoS protection
+- ✅ Validação de integridade de dados e checksums
+- ✅ Auditoria, logging seguro e non-repudiation
 
 ### Performance & Otimizações
-- ✅ Algoritmos avançados (sorting, hashing, graphs)
-- ✅ Cache strategies (LRU, Leaky Bucket, Token Bucket)
-- ✅ Connection pooling
-- ✅ Query optimization (índices, lazy loading)
-- ✅ Memory profiling e GC tuning
-- ✅ Compression (gzip, brotli)
-- ✅ Load balancing e sharding
+- ✅ Algoritmos avançados (sorting, hashing, graphs, trees)
+- ✅ Cache strategies (LRU, Leaky Bucket, Token Bucket, write-through)
+- ✅ Connection pooling e circuit breakers
+- ✅ Query optimization (índices, lazy loading, batch operations)
+- ✅ Memory profiling, heap analysis e GC tuning
+- ✅ Compression (gzip, brotli, delta encoding)
+- ✅ Load balancing, sharding e particionamento
 
 ### Padrões Financeiros
 - ✅ **SPI** (Sistema de Pagamentos Instantâneos)
@@ -202,13 +199,13 @@ Expõe modelos MLX como ferramentas MCP para opencode.
 
 ### Arquitetura & DevOps
 - ✅ Monorepo (Turborepo, pnpm workspaces)
-- ✅ Microserviços
+- ✅ Microserviços e service mesh
 - ✅ Event-driven architecture
 - ✅ CQRS & Event Sourcing
 - ✅ GraphQL Federation
 - ✅ Docker & Kubernetes
 - ✅ CI/CD pipelines (GitHub Actions)
-- ✅ Infrastructure as Code
+- ✅ Infrastructure as Code (Terraform, CloudFormation)
 
 ---
 
@@ -227,12 +224,12 @@ Expõe modelos MLX como ferramentas MCP para opencode.
 
 ## 🌟 O Diferencial
 
-1. **Performance First** — Código otimizado desde o design
-2. **Security Conscious** — Segurança não é pós-pensamento
-3. **Padrões Bancários** — Domínio profundo em fintech
-4. **Full-Stack Vision** — Entendo de infra até UI
-5. **Automação Obsessiva** — DevOps e CLI tools
-6. **Algoritmos** — Fascínio por soluções elegantes e eficientes
+1. **Performance First** — Código otimizado desde o design, não como reflexão
+2. **Security Conscious** — Segurança integrada em cada decisão arquitetural
+3. **Padrões Bancários** — Domínio profundo em fintech brasileira
+4. **Algoritmos & Otimizações** — Obsessão por eficiência e elegância
+5. **Full-Stack Vision** — Entendo desde infraestrutura até UX
+6. **Arquitetura Robusta** — Sistemas que escalam e perduram
 
 ---
 
