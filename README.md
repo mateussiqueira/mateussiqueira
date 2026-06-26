@@ -7,6 +7,10 @@
 Focused on financial architecture, security, and real-world optimization.
 ```
 
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mateussiqueira&show_icons=true&theme=dark&hide_border=true&count_private=true)](https://github.com/mateussiqueira)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mateussiqueira&layout=compact&theme=dark&hide_border=true)](https://github.com/mateussiqueira)
+
 ---
 
 ## What I do
@@ -24,22 +28,46 @@ I build fast backends and secure financial systems:
 ## Stack
 
 ### Backend
-TypeScript • Node.js • NestJS • Fastify • Koa • Express • Python • Go
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
+![Koa](https://img.shields.io/badge/Koa-33333D?style=flat-square&logo=koa&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 
 ### Data
-PostgreSQL • MongoDB • Redis • Prisma • GraphQL
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
 
 ### Finance & Security
-ISO 8583 • ISO 20022 • OAuth 2.0 • Encryption • SOAP/XML
+![ISO 8583](https://img.shields.io/badge/ISO%208583-FF6B6B?style=flat-square)
+![ISO 20022](https://img.shields.io/badge/ISO%2020022-FF6B6B?style=flat-square)
+![OAuth 2.0](https://img.shields.io/badge/OAuth%202.0-4285F4?style=flat-square)
+![Criptografia](https://img.shields.io/badge/Criptografia-FF6B6B?style=flat-square)
+![SOAP/XML](https://img.shields.io/badge/SOAP%2FXML-FF9900?style=flat-square)
 
 ### DevOps
-Docker • GitHub Actions • Turborepo • Proxmox • Cloudflare • AWS
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088F0?style=flat-square&logo=github-actions&logoColor=white)
+![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
 
 ### Frontend (when needed)
-React • Next.js • Vite • Tailwind
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
 
 ### Mobile background
-React Native • Flutter
+![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 
 ---
 
