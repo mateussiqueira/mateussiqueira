@@ -83,14 +83,6 @@ Developing recovery-level systems, kernel-level packet filter automation (`pf`),
 
 ---
 
-### 🧰 [omni-cli](https://github.com/mateussiqueira/omni-cli)
-*The CLI of CLIs—a unified developer orchestration tool written in Python.*
-
-*   **Purpose**: Functions as a single entry point to manage, configure, and execute custom developer scripts, tasks, and docker containers across different workspaces.
-*   **Stack**: Python, Shell.
-
----
-
 ## 💻 Tech Stack
 
 ### Languages
