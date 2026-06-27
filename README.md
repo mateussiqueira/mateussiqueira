@@ -1,27 +1,27 @@
-Sou engenheiro de software há 11+ anos. Passo a maior parte do tempo lidando com sistemas financeiros, arquitetura limpa e ferramentas para desenvolvedores. Também mexo com coisa de baixo nível em macOS — recovery mode, pf, launchd, e o escambau.
+11+ years shipping software — fintech, clean architecture, dev tooling, and low-level macOS stuff (recovery mode, pf, launchd, you name it).
 
-Já morei em Arapiraca/AL, Brasil (GMT-3). Falo português nativo e inglês fluente.
+Based in Arapiraca/AL, Brazil (GMT-3). Portuguese native, fluent English.
 
 [LinkedIn](https://www.linkedin.com/in/mateussiqueira)
 
 ---
 
-uns projetos que tão rodando aí:
+some projects I keep around:
 
-• **[unleash](https://github.com/mateussiqueira/unleash)** — bypass MDM em recovery mode no macOS. um script só, coverage Intel + Apple Silicon do macOS 12 ao 15+. 5 camadas de proteção desde spoof de DEP no disco até pf firewall no kernel. útil pra quem precisa de controle sobre a própria máquina.
+• **[unleash](https://github.com/mateussiqueira/unleash)** — MDM bypass running from macOS recovery mode. single script, Intel + Apple Silicon, macOS 12 through 15+. 5 protection layers from DEP disk spoofing to kernel pf firewall. handy if you want actual control over your machine.
 
-• **[banking-stack](https://github.com/mateussiqueira/banking-stack)** — monorepo com 14 desafios core de fintech simulando o mercado real brasileiro. simuladores de SPI (ISO 20022), DICT, ISO 8583, ledger double-entry, workflow engine, NFS-e. TDD desde o começo, clean architecture na veia.
+• **[banking-stack](https://github.com/mateussiqueira/banking-stack)** — monorepo tackling 14 core fintech challenges based on real Brazilian financial market requirements. SPI (ISO 20022), DICT, ISO 8583 simulators, double-entry ledger, workflow engine, NFS-e. TDD from day one, clean architecture throughout.
 
-• **[easy-mcp-br](https://github.com/mateussiqueira/easy-mcp-br)** — gerenciador de MCPs brasileiros e globais pra opencode. organiza 108 serviços em 20 grupos lógicos. ativa sob demanda pra não entupir o contexto dos agentes. instala por npm, homebrew, apt ou script direto.
+• **[easy-mcp-br](https://github.com/mateussiqueira/easy-mcp-br)** — MCP manager for Brazilian and global services in opencode. organizes 108 services across 20 logical groups. on-demand activation so agent context doesn't bloat. installable via npm, homebrew, apt, or direct script.
 
-• **[canopy](https://github.com/mateussiqueira/canopy)** — fork do opencode com recovery pra context overflow, prevenção de deleção acidental e suporte a Bedrock Converse. tem um manager nativo em SwiftUI pra rodar modelos locais (Mistral, LLaMA, Qwen Coder, DeepSeek) no Apple Silicon via MLX.
+• **[canopy](https://github.com/mateussiqueira/canopy)** — opencode fork with context overflow recovery, accidental deletion prevention, and Bedrock Converse support. ships with a native SwiftUI manager to run local models (Mistral, LLaMA, Qwen Coder, DeepSeek) on Apple Silicon via MLX.
 
-• **[nidus](https://github.com/mateussiqueira/nidus)** — PaaS open-source auto-hospedado no estilo Vercel/Railway. deploy via webhook do GitHub em containers Docker. worker em Go gasta 80% menos memória que Node. SSL automático com Caddy.
+• **[nidus](https://github.com/mateussiqueira/nidus)** — self-hosted open-source PaaS, Vercel/Railway-like. deploys from GitHub webhooks into isolated Docker containers. Go worker uses 80% less memory than Node. automatic SSL via Caddy.
 
-• **[omni-cli](https://github.com/mateussiqueira/omni-cli)** — CLI unificada em Python pra orquestrar scripts, tarefas e containers entre workspaces. uma só entrada pra não precisar ficar lembrando comando solto.
+• **[omni-cli](https://github.com/mateussiqueira/omni-cli)** — Python CLI that ties together scripts, tasks, and containers across workspaces. one entry point so you don't have to remember random commands.
 
 ---
 
-coisa que eu uso no dia a dia:
+things I reach for daily:
 
-TypeScript, JavaScript, Go, Python, Swift, Shell — Node.js, Bun, NestJS, Fastify, GraphQL — PostgreSQL, MongoDB, Redis — Docker, GitHub Actions, Proxmox, Cloudflare, AWS
+<img src="https://skillicons.dev/icons?i=ts,js,go,py,swift,bash,nodejs,bun,nestjs,fastify,graphql,postgres,mongodb,redis,docker,githubactions,cloudflare,aws" alt="tech stack icons" />
